@@ -4,6 +4,7 @@ import java04.Java_04_01;
 import java04.Java_04_01_01;
 import java04.Java_04_02;
 import java04.Java_04_03;
+import java04.Java_04_04;
 
 import java.util.Scanner;
 
@@ -14,6 +15,7 @@ public class Main {
     public static final int ACTION_2 = 2;
     public static final int ACTION_3 = 3;
     public static final int ACTION_4 = 4;
+    public static final int ACTION_5 = 5;
 
     public static void main(String[] args) {
         Main objektas = new Main();
@@ -29,6 +31,7 @@ public class Main {
         System.out.println(ACTION_2 + " - Java_04_01_01");
         System.out.println(ACTION_3 + " - Java_04_02");
         System.out.println(ACTION_4 + " - Java_04_03");
+        System.out.println(ACTION_5 + " - Java_04_04");
         System.out.println("===============================");
     }
 
@@ -53,6 +56,9 @@ public class Main {
                     break;
                 case ACTION_4:
                     new Java_04_03();
+                    break;
+                case ACTION_5:
+                    new Java_04_04();
                     break;
             }
 

@@ -8,14 +8,13 @@ public class Java_04_03 {
         Scanner sc = new Scanner(System.in);
         float sk = 0;
         float suma = 0;
-        sk = sc.nextFloat();
-        suma += sk;
-        while (sk != 0) {
+
+        do  {
             System.out.println("Iveskite kita skaiciu");
             sk = sc.nextFloat();
+            suma+=sk;
+        }while(sk != 0);
 
-        }
-
-
+        System.out.println("Suma: "+suma);
     }
 }
