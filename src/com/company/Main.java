@@ -1,7 +1,7 @@
 package com.company;
 
-import Java_04_01.Java_04_01;
-import Java_04_01.Java_04_01_01;
+import java04.Java_04_01;
+import java04.Java_04_01_01;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("===============================");
         System.out.println("Koki veiksma norite atlikti");
         System.out.println(EXIT_CODE + " - Baigti darba");
-        System.out.println(ACTION_1 + " - Java_04_01");
+        System.out.println(ACTION_1 + " - java04");
         System.out.println(ACTION_2 + " - Java_04_01_01");
         System.out.println("===============================");
     }
