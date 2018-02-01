@@ -21,10 +21,10 @@ public class Java_04_07 {
             masyvas[a] = skaicius;
             suma = suma + skaicius;
         }
-        atvaizdavimas();
+        atvaizdavimas(masyvas);
     }
 
-    public void atvaizdavimas() {
+    public void atvaizdavimas(int[] masyvas) {
         for (int a = 0; a < masyvas.length; a++) {
             if (masyvas[a] <= 100) {
                 System.out.println(masyvas[a]);

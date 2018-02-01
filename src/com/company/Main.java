@@ -15,6 +15,7 @@ public class Main {
     public static final int ACTION_6 = 6;
     public static final int ACTION_7 = 7;
     public static final int ACTION_8 = 8;
+    public static final int ACTION_9 = 9;
 
     public static void main(String[] args) {
         Main objektas = new Main();
@@ -34,6 +35,7 @@ public class Main {
         System.out.println(ACTION_6 + " - Java_04_05");
         System.out.println(ACTION_7 + " - Java_04_06");
         System.out.println(ACTION_8 + " - Java_04_07");
+        System.out.println(ACTION_8 + " - Java_04_08");
         System.out.println("===============================");
     }
 
@@ -70,6 +72,9 @@ public class Main {
                     break;
                 case ACTION_8:
                     new Java_04_07();
+                    break;
+                case ACTION_9:
+                    new Java_04_08();
                     break;
             }
 
